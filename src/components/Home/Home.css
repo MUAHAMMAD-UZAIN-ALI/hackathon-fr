@@ -1,0 +1,106 @@
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    
+}
+
+.home-aside {
+    position: relative;
+    overflow: hidden;
+    text-align: black;
+    border-radius: 0.75rem;
+    margin: 2rem 0;
+    padding-top: 10rem;
+}
+
+.home-content {
+    position: relative;
+    z-index: 10;
+    max-width: 1200px;
+    padding: 2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.home-text {
+    max-width: 600px;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.home-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.home-subtitle {
+    display: block;
+    font-size: 2.25rem;
+}
+
+.home-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-weight: 500;
+    background-color: #2d6a4f;
+    color: white;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.home-btn:hover {
+    opacity: 0.75;
+}
+
+.home-image-wrapper {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    top: 12rem;
+    height: 100%;
+}
+
+.home-image {
+    width: 24rem;
+    margin: 0 auto;
+}
+
+.image-center {
+    display: grid;
+    place-items: center;
+    margin-top: 5rem;
+}
+
+.home-small-image {
+    width: 12rem;
+}
+
+.home-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    font-weight: 500;
+    padding: 2.5rem;
+}
+
+@media (max-width: 640px) {
+    .home-title {
+        font-size: 2rem;
+    }
+
+    .home-btn {
+        padding: 0.75rem 1.5rem;
+    }
+
+    .home-small-image {
+        width: 10rem;
+    }
+
+    .home-heading {
+        font-size: 1.5rem;
+    }
+}

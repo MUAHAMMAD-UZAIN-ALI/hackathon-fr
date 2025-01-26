@@ -1,0 +1,55 @@
+/* About Section */
+.about-section {
+    padding: 60px 0;
+    background-color: white;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #4a5568; /* Equivalent to Tailwind's text-gray-600 */
+  }
+  
+  /* Content Wrapper */
+  .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Image Section */
+  .image-section {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  /* Text Section */
+  .text-section {
+    flex: 0 0 55%;
+    max-width: 55%;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1a202c; /* Equivalent to Tailwind's text-gray-900 */
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4a5568;
+  }

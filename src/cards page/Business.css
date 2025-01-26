@@ -1,0 +1,82 @@
+.business-loans-card {
+    position: relative;
+    width: 18rem;
+    max-width: 24rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 2px solid #e0e0e0;
+    transition: transform 0.3s ease;
+}
+
+.business-loans-card:hover {
+    transform: scale(1.05);
+}
+
+.image-section {
+    height: 12rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+    background-color: #f7f7f7;
+    margin-bottom: 0;
+}
+
+.card-info {
+    padding: 1rem;
+    font-size: 0.875rem;
+    color: #333;
+}
+
+.card-info span {
+    font-weight: bold;
+}
+
+.subcategories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.subcategory-btn {
+    background-color: #1d4ed8;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.375rem;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.subcategory-btn:hover {
+    background-color: #2563eb;
+}
+
+@media (min-width: 768px) {
+    .business-loans-card {
+        width: 20rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .business-loans-card {
+        width: 24rem;
+    }
+}
